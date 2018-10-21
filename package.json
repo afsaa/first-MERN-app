@@ -1,0 +1,22 @@
+{
+  "name": "mern-app",
+  "version": "1.0.0",
+  "description": "MERN simple shopping list.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Andres Fernando Saa",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.4",
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
